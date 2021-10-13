@@ -28,5 +28,5 @@ public class MulGame implements iGame {
 		return (answer == (num1 * num2)) ? true : false;
 	}
 	
-	}
+	
 }
