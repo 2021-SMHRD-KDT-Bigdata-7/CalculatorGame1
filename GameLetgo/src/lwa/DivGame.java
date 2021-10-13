@@ -20,16 +20,14 @@ public class DivGame implements iGame {
 
 	@Override
 	public String getQuizMsg() {
-		
+
 		return num1 + "/" + num2 + "=";
 	}
 
 	@Override
 	public boolean checkAnswer(int answer) {
-		
-		return ((num1 / num2) == answer) ? true :false;
+
+		return ((num1 / num2) == answer) ? true : false;
 	}
 
-	
-	
 }
